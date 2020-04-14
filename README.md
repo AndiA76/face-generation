@@ -10,9 +10,6 @@ The project is implemented as a Jupyter notebook and can be found there: [Projec
 
 ## Installation
 
-### 1. Install git
-In order to download the project
-
 ### 1. Install Anaconda with Python
 
 In order to run the notebook download and install [Anaconda](https://docs.anaconda.com/anaconda/install/) with Python 3.6 on your machine. Further packages that are required to run the notebook are installed in a virtual environment using conda.
