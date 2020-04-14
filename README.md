@@ -50,7 +50,7 @@ conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 
 ### 5. Further requirements 
 
-Besides Pytorch you need to install a couple of further packages, which are required by the project notebook. The packages are specified in the [requirements.txt file](requirements.txt) (including OpenCV). You can install them using pip resp. pip3:
+Besides Pytorch you need to install a couple of further packages, which are required by the project notebook. The packages are specified in the [requirements.txt](requirements.txt) file (incl. OpenCV for Python). You can install them using pip resp. pip3:
 
 pip install -r requirements.txt
 
@@ -60,4 +60,4 @@ Now start a Jupyter notebook to run the project using following command
 
 jupyter notebook
 
-Navigate to your local project folder in the Jupyter notebook and open [dlnd_face_generation.ipynb file](dlnd_face_generation.ipynb) and run it.
+Navigate to your local project folder in the Jupyter notebook and open [dlnd_face_generation.ipynb](dlnd_face_generation.ipynb) file and run it.
