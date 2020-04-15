@@ -1,4 +1,4 @@
-# Face Generation Project
+# Face Generation using DCGANs and Pytorch
 
 ## Overview
 
