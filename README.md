@@ -65,7 +65,23 @@ Besides Pytorch you need to install a couple of further packages, which are requ
 pip install -r requirements.txt
 ```
 
-### 6. Run the notebook
+### 6. Download the dataset
+
+In order to run the notebook you will be using the [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) to train the DCGAN adversarial networks.
+
+Since the project's main focus is on building the GANs, a pre-processed dataset is used. Each of the CelebA images has been cropped to remove parts of the image that don't include a face, then resized down to 64x64x3 NumPy images. Some sample data is show below.
+
+<img src='assets/processed_face_data.png' width=60% />
+
+> If you are working locally, you can download this data [by clicking here](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip)
+
+This is a zip file that you'll need to extract in the home directory of this notebook for further loading and processing using below command. After extracting the data, you should be left with a directory of data `processed_celeba_small/`
+
+```
+unzip processed_celeba_small.zip
+```
+
+### 7. Run the notebook
 
 Now start a Jupyter notebook to run the project using following command
 
