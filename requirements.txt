@@ -1,5 +1,6 @@
 jupyter
 opencv-python
+cython
 numpy
 matplotlib
 pandas
