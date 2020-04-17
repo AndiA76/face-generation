@@ -12,11 +12,11 @@ The project is implemented as a Jupyter notebook and can be found there: [Projec
 
 ### 1. Install Anaconda with Python
 
-In order to run the notebook download and install [Anaconda](https://docs.anaconda.com/anaconda/install/) with Python 3.6 on your machine. Further packages that are required to run the notebook are installed in a virtual environment using conda.
+In order to run the notebook please download and install [Anaconda](https://docs.anaconda.com/anaconda/install/) with Python 3.6 on your machine. Further packages that are required to run the notebook are installed in a virtual environment using conda.
 
 ### 2. Create a Virtual Environment
 
-In order to set upt the prerequisites to run the project notebook you should create a virtual environment, e. g. using conda, Anaconda's package manager, and the following command
+In order to set up the prerequisites to run the project notebook you should create a virtual environment, e. g. using conda, Anaconda's package manager, and the following command
 
 ```
 conda create --name deep-learning
@@ -30,7 +30,7 @@ activate deep-learning
 
 ### 3. Download the project from github
 
-You can download the project form github as a zip file to your Downloads folder from where you can unpack and move the files to your local project folder. Or you can clone from Github using the terminal window. Therefore, you need to prior install git on your machine e. g. using
+You can download the project from github as a zip file to your Downloads folder from where you can unpack and move the files to your local project folder. Or you can clone from Github using the terminal window. Therefore, you need to prior install git on your machine e. g. using
 
 ```
 conda install -c anaconda git
